@@ -11,9 +11,11 @@ function confirmEnding(str, target) {
   }
   var z = x.join('');
   if (z == target) {
+    console.log("True");
     return true;
   }
   else {
+    console.log("false");
     return false;
   }
 }
